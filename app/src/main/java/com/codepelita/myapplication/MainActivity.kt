@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var mainBinding: ActivityMainBinding
 
+    var firstName: ArrayList<String> = ArrayList()
+    var lastName: ArrayList<String> = ArrayList()
+    var gender: ArrayList<String> = ArrayList()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
